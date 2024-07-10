@@ -1,0 +1,44 @@
+.reading-mode-element {
+  display: none !important;
+}
+
+body.reading-mode {
+  background-color: #f4f4f4 !important;
+  color: #333 !important;
+  line-height: 1.6 !important;
+  font-family: Georgia, serif !important;
+  font-size: 18px !important;
+  padding: 20px !important;
+  margin: 0 auto !important;
+  max-width: 800px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+}
+
+body.reading-mode img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+body.reading-mode p {
+  margin: 1em 0 !important;
+}
+
+body.reading-mode h1,
+body.reading-mode h2,
+body.reading-mode h3,
+body.reading-mode h4,
+body.reading-mode h5,
+body.reading-mode h6 {
+  margin: 1.5em 0 0.5em !important;
+  font-weight: bold !important;
+}
+
+body.reading-mode a {
+  color: #3498db !important;
+  text-decoration: none !important;
+}
+
+body.reading-mode a:hover {
+  text-decoration: underline !important;
+}

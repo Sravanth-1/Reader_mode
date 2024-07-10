@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reading Mode</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+    }
+    button, select {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <button id="toggleReadingMode">Toggle Reading Mode</button>
+  <select id="fontSize">
+    <option value="16px">16px</option>
+    <option value="18px" selected>18px</option>
+    <option value="20px">20px</option>
+    <option value="22px">22px</option>
+  </select>
+  <select id="backgroundColor">
+    <option value="#f4f4f4" selected>Light Gray</option>
+    <option value="#ffffff">White</option>
+    <option value="#000000">Black</option>
+  </select>
+  <script src="popup.js"></script>
+</body>
+</html>
